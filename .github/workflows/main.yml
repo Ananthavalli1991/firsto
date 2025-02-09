@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-      - name : 23f1001029@ds.study.iitm.ac.in
+      
       - name: Create Timestamp File
         run: |
           date > timestamp.txt
